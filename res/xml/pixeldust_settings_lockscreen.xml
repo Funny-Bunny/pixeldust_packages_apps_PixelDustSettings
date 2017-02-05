@@ -44,6 +44,12 @@
         android:defaultValue="true"
         android:persistent="false" />
 
+    <SwitchPreference
+        android:key="fp_unlock_keystore"
+        android:title="@string/fp_unlock_keystore_title"
+        android:summary="@string/fp_unlock_keystore_summary"
+        android:persistent="false" />
+
     <com.pixeldust.settings.preferences.SystemSettingSwitchPreference
         android:key="keyguard_toggle_torch"
         android:title="@string/keyguard_torch_title"
